@@ -32,7 +32,7 @@ if [ ! $NODENAME ]; then
 	echo 'export NODENAME='$NODENAME >> $HOME/.bash_profile
 fi
 echo "export WALLET=quickwallet" >> $HOME/.bash_profile
-echo "export CHAIN_ID=rhapsody-5" >> $HOME/.bash_profile
+echo "export CHAIN_ID=killerqueen-1" >> $HOME/.bash_profile
 source $HOME/.bash_profile
 
 echo '================================================='
