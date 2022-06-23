@@ -76,7 +76,7 @@ quicksilverd config keyring-backend file
 quicksilverd init $NODENAME --chain-id $CHAIN_ID
 
 
-wget -qO $HOME/.quicksilverd/config/genesis.json "https://raw.githubusercontent.com/ingenuity-build/testnets/main/rhapsody/genesis.json"
+wget https://raw.githubusercontent.com/ingenuity-build/testnets/main/killerqueen/genesis.json"
 wget -qO $HOME/.quicksilverd/config/addrbook.json "https://raw.githubusercontent.com/agonyp/Scripts-ALPHA-Noderunning/main/utilities/quicksilver-addrbook.json"
 
 
